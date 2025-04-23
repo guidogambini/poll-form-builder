@@ -1,0 +1,20 @@
+/* Custom CSS Reset (opcional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Press Start 2P';
+  line-height: 1.5;
+  background: linear-gradient(135deg, #3a0ca3, #7209b7);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* TailwindCSS base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
