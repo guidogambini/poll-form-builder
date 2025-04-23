@@ -78,7 +78,7 @@ const canSubmit = computed(() =>
 const submitPoll = () => {
   if (!canSubmit.value) return
 
-  pollStore.createPoll(question.value, answers.value.map((a, i) => ({
+  pollStore.createPoll(question.value, answers.value.map((a) => ({
     text: a.text,
   })))
 
