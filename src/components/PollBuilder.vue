@@ -1,12 +1,12 @@
 <template>
-  <div class="form-wrapper border border-gray-300 p-4 ml-8 rounded-lg max-w-sm">
+  <div class="form-wrapper border border-gray-300 p-4 rounded-lg">
     <h2 class="text-xl font-semibold mb-4">Create new poll here:</h2>
     <form @submit.prevent="submitPoll">
       <label class="block text-lg font-medium my-4">
          Poll Question
         <input
           v-model="question"
-          placeholder="e.g. What is your favorite video game?"
+          placeholder="Question"
           required
           class="w-full p-2 mt-1 border border-gray-300 rounded"
         />
