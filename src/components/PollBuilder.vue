@@ -12,22 +12,27 @@
         />
       </label>
 
-      <div v-for="(option, index) in answers" :key="index" class="answer-option flex items-center gap-2 mb-2">
-        <input
-          v-model="option.text"
-          :placeholder="`Answer ${index + 1}`"
-          required
-          class="p-2 border border-gray-300 text-lg font-medium rounded"
-        />
-        <button
-          type="button"
-          @click="removeAnswer(index)"
-          v-if="answers.length > 2"
-          class="text-red-500 hover:text-red-700"
-        >
-          ✕
-        </button>
-      </div>
+      <div
+  v-for="(option, index) in answers"
+  :key="index"
+  class="answer-option flex flex-wrap items-center gap-2 mb-2 w-full"
+>
+  <input
+    v-model="option.text"
+    :placeholder="`Answer ${index + 1}`"
+    required
+    class="flex-1 min-w-0 p-2 border border-gray-300 text-lg font-medium rounded"
+  />
+  <button
+    type="button"
+    @click="removeAnswer(index)"
+    v-if="answers.length > 2"
+    class="text-red-500 hover:text-red-700"
+  >
+    ✕
+  </button>
+</div>
+
 
       <button
         type="button"
