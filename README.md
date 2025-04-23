@@ -1,5 +1,11 @@
-# Vue 3 + TypeScript + Vite
+# 🗳️ Poll & Form Builder App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern web application built with **Vue 3**, **TypeScript**, **Vite**, **Pinia**, and **Tailwind CSS** that allows users to create, visualize, and respond to **polls** and **forms** in a dynamic and interactive way.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Tech Stack
+
+- **[Vue 3](https://vuejs.org/)** — Progressive JavaScript framework
+- **[Vite](https://vitejs.dev/)** — Fast build tool and development server
+- **[TypeScript](https://www.typescriptlang.org/)** — Typed JavaScript for better developer experience
+- **[Pinia](https://pinia.vuejs.org/)** — State management library for Vue
+- **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first CSS framework for rapid UI development
